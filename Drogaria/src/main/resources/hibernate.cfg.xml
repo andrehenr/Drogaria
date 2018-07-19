@@ -33,8 +33,13 @@
 		<property name="hbm2ddl.auto">create</property>
 		
 		<!-- Mapeamento das entidades -->
+		<mapping class="br.com.andre.drogaria.domain.Cidade"/>
 		<mapping class="br.com.andre.drogaria.domain.Estado"/>
-		
+		<mapping class="br.com.andre.drogaria.domain.Produto"/>
+		<mapping class="br.com.andre.drogaria.domain.Fabricante"/>
+		<mapping class="br.com.andre.drogaria.domain.Pessoa"/>
+		<mapping class="br.com.andre.drogaria.domain.Cliente"/>
+		<mapping class="br.com.andre.drogaria.domain.Funcionario"/>
 	</session-factory>
 
 </hibernate-configuration>
